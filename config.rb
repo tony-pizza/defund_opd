@@ -59,8 +59,8 @@ helpers do
   def at_large_councilmember
     Struct.new(:name, :email, :phone).new(
       'Rebecca Kaplan',
+      'rkaplan@oakland.gov',
       '510-238-7008',
-      'rkaplan@oakland.gov'
     )
   end
 
