@@ -1,14 +1,14 @@
+.container
+  .pam style="background: #eee; color: #666;"
+    p Hello Councilmember #{district.councilmember.name},
 
-.pam style="background: #eee; color: #666;"
-  p Hello Councilmember #{district.councilmember.name},
+    p My name is ___ and I live in District #{district.number}. I am calling to demand that you defund the Oakland Police Department and use the money to invest in social services.
 
-  p My name is ___ and I live in District #{district.number}. I am calling to demand that you defund the Oakland Police Department and use the money to invest in social services.
+    p I’m personally passionate about this because ___.
 
-  p I’m personally passionate about this because ___.
+    p
+      | [If someone answered the phone, here is a good place to pause and let them respond]
 
-  p
-    | [If someone answered the phone, here is a good place to pause and let them respond]
+    p Thank you, I look forward to the changes you will implement going forward. I will be staying active and informed. 
 
-  p Thank you, I look forward to the changes you will implement going forward. I will be staying active and informed. 
-
-a.btn.btn-primary.mvl href="tel:#{district.councilmember.phone}" Call #{district.councilmember.phone}
+  a.btn.btn-primary.mvl href="tel:#{district.councilmember.phone}" Call #{district.councilmember.phone}

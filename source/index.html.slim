@@ -1,17 +1,15 @@
----
-title: defund opd my dudes
----
+.container
+  p Black people have been disproportionately targeted, prosecuted, and murdered by the police for centuries under an intrinsically racist, capitalistic system. In Oakland, the police budget eats up 44% of the general fund, more than any other city in the nation. For context, housing, transportation, and human services receive less than 5% combined. This is why organizations like the Anti Police-Terror Project have spent the past five years working to reallocate funds from the Oakland Police Department back into the community.
 
-p Black people have been disproportionately targeted, prosecuted, and murdered by the police for centuries under an intrinsically racist, capitalistic system. In Oakland, the police budget eats up 44% of the general fund, more than any other city in the nation. For context, housing, transportation, and human services receive less than 5% combined. This is why organizations like the Anti Police-Terror Project have spent the past five years working to reallocate funds from the Oakland Police Department back into the community.
+  p The Oakland City Council will vote on budget adjustments for 2020-2021 on June 30th. We must demand that they defund the police and refund services that enhance Black lives, instead of taking them away. We must louden our collective voice by bringing our neighbors into this movement. 
 
-p The Oakland City Council will vote on budget adjustments for 2020-2021 on June 30th. We must demand that they defund the police and refund services that enhance Black lives, instead of taking them away. We must louden our collective voice by bringing our neighbors into this movement. 
+  #districts.pvl.text-center
+    h2 Districts
+    - data.districts.each do |district|
+      .mvl
+        a href="/district#{district.number}" District #{district.number} • #{district.councilmember.name} (#{district.neighborhoods})
 
-#districts.pvl.text-center
-  - data.districts.each do |district|
-    .mvl
-      a href="/district#{district.number}" District #{district.number} • #{district.councilmember.name} (#{district.neighborhoods})
+  p Still don’t know your district? 
+  a href="http://gisapps1.mapoakland.com/councildistricts/" target="_blank" Go to the District Finder
 
-p Still don’t know your district? 
-a href="http://gisapps1.mapoakland.com/councildistricts/" target="_blank" Go to the District Finder
-
-p “Instead of asking whether anyone should be locked up or go free, why don’t we think about why we solve problems by repeating the kind of behavior that brought us the problem in the first place?” [...] why, as a society, we would choose to model cruelty and vengeance.” — Ruth Wilson Gilmore
+  p “Instead of asking whether anyone should be locked up or go free, why don’t we think about why we solve problems by repeating the kind of behavior that brought us the problem in the first place?” [...] why, as a society, we would choose to model cruelty and vengeance.” — Ruth Wilson Gilmore
