@@ -18,7 +18,7 @@ title: defund opd my dudes
 
 .mvxl
   a.btn.btn-primary.mvl href="/district#{district.number}/call" CALL #{district.councilmember.name.upcase}
-  a.btn.btn-secondary.mvl href=mailto(district.councilmember.email, cc: at_large_councilmember.email, subject: email_subject, body: email_body) EMAIL #{district.councilmember.name.upcase}
+  a.btn.btn-secondary.mvl href=councilmember_mailto(district) EMAIL #{district.councilmember.name.upcase}
 
 .text-center
   strong Not a District #{district.number} resident?
