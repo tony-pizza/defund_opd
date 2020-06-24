@@ -2,13 +2,54 @@
   number: 1
   neighborhoods: Northern Oakland
   councilmember:
-    name: Loren Taylor
-    phone: 510-238-7006
-    email: District6@oaklandca.gov
+    name: Dan Kalb
+    phone: 510-238-7001
+    email: dkalb@oaklandca.gov
+
 -
-  number: 1
-  neighborhoods: Northern Oakland
+  number: 2
+  neighborhoods: East Lake, Crocker Highlands, Grand Lake, San Antonio, Chinatown
+  councilmember:
+    name: Nikki Fortunato Bas
+    phone: 510-238-7002
+    email: nfbas@oaklandca.gov
+
+-
+  number: 3
+  neighborhoods: West Oakland, Mosswood, Old Oakland, Macarthur
+  councilmember:
+    name: Lynette Gibson McElhaney
+    phone: 510-238-7003
+    email: LMcElhaney@oaklandca.gov
+
+-
+  number: 4
+  neighborhoods: Oakland Hills, Oakmore, Upper Dimond/Laurel, Montclair
+  councilmember:
+    name: Sheng Thao
+    phone: 510-238-7004
+    email: district4@oaklandca.gov
+
+-
+  number: 5
+  neighborhoods: Fruitvale, Highland Park, Jefferson
+  councilmember:
+    name: Noel Gallo
+    phone: 510-238-7005
+    email: Ngallo@oaklandca.gov
+
+-
+  number: 6
+  neighborhoods: East Oakland, Coliseum, Eastmont Hills, Mills, Fairfax
   councilmember:
     name: Loren Taylor
     phone: 510-238-7006
     email: District6@oaklandca.gov
+
+-
+  number: 7
+  neighborhoods: South/East Oakland, Sobrante, Chabot Park, Elmhurst Park
+  councilmember:
+    name: Larry Reid
+    phone: 510-238-7007
+    email: lreid@oaklandnet.com

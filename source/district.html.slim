@@ -4,13 +4,23 @@ title: defund opd my dudes
 
 / img src="/images/chart.svg"
 
-p District #{district.number} Resident,
-p Tell your councilmember, #{district.councilmember.name}, to defund OPD.
+.message
+  p
+    | Dear District 1 Resident,
+
+  p
+    | In Oakland, the police budget eats up <em>44% of the general fund</em>, more than any other city in the nation. 
+    | For context, housing, transportation, and human services receive less than 5% combined.
+
+  p
+    | On June 30th, Oakland City Council votes on the budget. Your district councilmember is #{district.councilmember.name.upcase}. 
+    | Let them know how you feel and urge them to vote to <em>DEFUND OPD</em>.
+
+.mvxl
+  a.btn.btn-primary.mvl href="/district#{district.number}/call" CALL #{district.councilmember.name.upcase}
+  a.btn.btn-secondary.mvl href=mailto(district.councilmember.email, cc: at_large_councilmember.email, subject: email_subject, body: email_body) EMAIL #{district.councilmember.name.upcase}
 
 .text-center
-  | Not in District #{district.number}? Not sure?
+  strong Not a District #{district.number} resident?
   .mts
-    a.link href="/#districts" Find your district
-
-a.btn.btn-primary.mvl href="/district#{district.number}/call" Call
-a.btn.btn-secondary.mvl href="#" Email
+    a.link href="/#districts" Switch to your district

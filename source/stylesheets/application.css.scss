@@ -20,7 +20,7 @@ body {
 main {
   max-width: $container-width;
   margin: 0 auto;
-  padding: 0 $ws-lg;
+  padding: 0 $ws-lg 100px;
 }
 
 h1 {
@@ -53,6 +53,16 @@ p {
 
 .text-center {
   text-align: center;
+}
+
+.message p {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.2;
+  em {
+    color: $red;
+    font-style: normal;
+  }
 }
 
 a {
