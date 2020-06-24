@@ -1,0 +1,16 @@
+---
+title: defund opd my dudes
+---
+
+/ img src="/images/chart.svg"
+
+p District #{district.number} Resident,
+p Tell your councilmember, #{district.councilmember.name}, to defund OPD.
+
+.text-center
+  | Not in District #{district.number}? Not sure?
+  .mts
+    a.link href="/#districts" Find your district
+
+a.btn.btn-primary.mvl href="/district#{district.number}/call" Call
+a.btn.btn-secondary.mvl href="#" Email

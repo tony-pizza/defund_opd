@@ -1,0 +1,12 @@
+*.swo
+*.swp
+.DS_STORE
+build
+.*-space-hash
+.env
+.sass-cache
+.byebug_history
+.idea
+node_modules
+*.log
+.tmp
