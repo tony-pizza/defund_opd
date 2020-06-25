@@ -1,14 +1,22 @@
 .container
-  .pam style="background: #eee; color: #666;"
+  .panel.pvs.phl
     p Hello Councilmember #{district.councilmember.name},
-
     p My name is ___ and I live in District #{district.number}. I am calling to demand that you defund the Oakland Police Department and use the money to invest in social services.
-
     p I’m personally passionate about this because ___.
-
     p
       | [If someone answered the phone, here is a good place to pause and let them respond]
+    p Thank you, I look forward to the changes you will implement going forward. I will be staying active and informed.
 
-    p Thank you, I look forward to the changes you will implement going forward. I will be staying active and informed. 
+  a.btn.btn-primary.fixed.mvxl href="tel:#{district.councilmember.phone}"
+    | Call #{district.councilmember.name}
+    br
+    | #{district.councilmember.phone}
 
-  a.btn.btn-primary.mvl href="tel:#{district.councilmember.phone}" Call #{district.councilmember.phone}
+  p Note that if an example doesn’t easily come to mind about why you’re passionate, you can talk about one of the issues below:
+
+  ul.small
+    li Demilitarize our police. End the use of tear gas and rubber bullets, ban chokeholds and other forms of excessive force, and eliminate racial profiling by law enforcement.
+    li Protect our children. Oakland must remove all police officers from Oakland Unified School District schools and comply with the demands of the Black Organizing Project. The school police budget should be reinvested into supports for the whole child and students with disabilities.
+    li Invest in Community. Going forward, Oakland must divest from police and further invest in restorative justice practices, affordable housing, public education, and frontline mental health care for our communities.
+    li Implement the Civilian Police Commission. Work with the Anti-Police Terror Project and Coalition for Police Accountability to fully implement Measure LL and to establish an independent Police Commission, ensuring improved oversight of OPD.
+    li Donate all OPOA campaign contributions. Give all donations you have received from the Oakland Police Officers Association Political Action Committee to bail funds, mutual aid organizations, and/or local nonprofits defending Black lives and pledge to not take any more money from police unions.
