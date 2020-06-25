@@ -69,8 +69,13 @@ p {
   line-height: 1.4;
 }
 
-ul.light {
+small, .small {
   font-size: 18px;
+}
+
+.panel {
+  background: #eee;
+  color: #666;
 }
 
 .header {
