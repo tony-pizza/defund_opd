@@ -135,6 +135,11 @@ a {
   }
 }
 
+blockquote {
+  color: grey;
+  padding-top:2em;
+}
+
 $spacing-map: (
   n: 0,
   s: $ws-sm,
