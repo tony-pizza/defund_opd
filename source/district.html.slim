@@ -7,16 +7,31 @@
 
     p
       | In Oakland, the police budget eats up <em>44% of the general fund</em>, more than any other city in the nation.
+<<<<<<< HEAD
 
       | For context, housing, transportation, and human services receive less than 5% combined. <a href="https://www.antipoliceterrorproject.org/" target="_blank"> The Anti-Police Terror Project </a> launched the Defund OPD campaign five years ago and the time has come for real change in Oakland.
 
     p
       | On July 31, Oakland City Council will vote on the final budget. Your district councilmember is #{district.councilmember.name.upcase}.
       | Let them know they must <em>DEFUND OPD</em>.
+=======
+      |  For context, housing, transportation, and human services receive less than 5% combined.
+
+    p
+      | On June 30th, Oakland City Council votes on the budget. Your district councilmember is #{district.councilmember.name.upcase}.
+      |  Let them know how you feel and urge them to vote to <em>DEFUND OPD</em>.
+>>>>>>> master
 
   .mvxl
     a.btn.btn-primary.mvl href="/district#{district.number}/call" Call #{district.councilmember.name}
     a.btn.btn-secondary.mvl href=councilmember_mailto(district) Email #{district.councilmember.name}
+
+  .text-center
+    strong Email link not working?
+    .mts
+      a.link href="https://docs.google.com/document/d/1uU9Z3vedlliJPRQnklPZmDXGQnrb3tQTNiYdwDRtSQw/edit" Click here for script
+
+  br
 
   .text-center
     strong Not a District #{district.number} resident?
@@ -39,4 +54,9 @@
 
 .container
   .mvxl
+<<<<<<< HEAD
     a.btn.btn-secondary.mvl href="#TODO" Join DSA!
+=======
+    a.btn.btn-primary.mvl href="https://www.eastbaydsa.org/campaigns/defund-opd/" target="_blank" Sign up to join the DefundOPD Campaign
+    a.btn.btn-secondary.mvl href="https://www.eastbaydsa.org/join/" target="_blank" Join DSA!
+>>>>>>> master
